@@ -4,6 +4,9 @@
 //
 
 #pragma once
+
+#include "targetver.h"
+
 #define WIN32_LEAN_AND_MEAN             // Exclude rarely-used stuff from Windows headers
 
 
@@ -37,6 +40,8 @@
 #include <d3d11_1.h>
 #include <d3d11_2.h>
 #include <d3dx11Effect.h>
+#include <SpriteBatch.h>
+#include <SpriteFont.h>
 #include <DirectXMath.h>
 #include <DirectXPackedVector.h>
 
@@ -51,3 +56,5 @@
 #include "EngineServiceContainer.h"
 #include "EngineComponent.h"
 #include "Engine.h"
+#include "DrawableComponent.h"
+#include "FramesPerSecond.h"

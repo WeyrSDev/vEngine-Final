@@ -14,7 +14,7 @@ namespace vEngine {
 		m_FeatureLevel(D3D_FEATURE_LEVEL_9_1), m_Direct3DDevice(nullptr), m_Direct3DDeviceContext(nullptr), m_SwapChain(nullptr),
 		m_FrameRate(DefaultFrameRate), m_IsFullScreen(false),
 		m_DepthStencilBufferEnabled(false), m_MultiSamplingEnabled(false), m_MultiSamplingCount(DefaultMultiSamplingCount), m_MultiSamplingQualityLevels(0),
-		m_DepthStencilBuffer(nullptr), m_RenderTargetView(nullptr), m_DepthStencilView(nullptr), m_Viewport()
+		m_DepthStencilBuffer(nullptr), m_RenderTargetView(nullptr), m_DepthStencilView(nullptr), m_Viewport(), m_EngineComponents(), m_Services()
 	{
 	}
 
@@ -87,6 +87,16 @@ namespace vEngine {
 		return m_Viewport;
 	}
 
+	const std::vector<EngineComponent*>& Engine::EngineComponents() const
+	{
+		return m_EngineComponents;
+	}
+
+	const ServiceContainer& Engine::Services() const
+	{
+		return m_Services;
+	}
+
 	void Engine::Run()
 	{
 		InitializeWindow();
@@ -123,6 +133,10 @@ namespace vEngine {
 
 	void Engine::Initialize()
 	{
+		for (EngineComponent* component : m_EngineComponents)
+		{
+			component->Initialize();
+		}
 	}
 
 	void Engine::Shutdown()
@@ -145,10 +159,26 @@ namespace vEngine {
 
 	void Engine::Update(const EngineTime& engineTime)
 	{
+		for (EngineComponent* component : m_EngineComponents)
+		{
+			if (component->Enabled())
+			{
+				component->Update(engineTime);
+			}
+		}
 	}
 
 	void Engine::Draw(const EngineTime& engineTime)
 	{
+
+		for (EngineComponent* component : m_EngineComponents)
+		{
+			DrawableComponent* drawableComponent = component->As<DrawableComponent>();
+			if (drawableComponent != nullptr && drawableComponent->Visible())
+			{
+				drawableComponent->Draw(engineTime);
+			}
+		}
 	}
 
 	void Engine::InitializeWindow()
