@@ -44,8 +44,12 @@
 #include <SpriteFont.h>
 #include <DirectXMath.h>
 #include <DirectXPackedVector.h>
+#include <GamePad.h>
 
 
+#include "EngineStructs.h"
+#include "EngineEnums.h"
+#include "StringEncryptionRC4.h"
 #include "D3DCompiler.h"
 #include "EngineUtility.h"
 #include <dinput.h>
@@ -58,3 +62,6 @@
 #include "Engine.h"
 #include "DrawableComponent.h"
 #include "FramesPerSecond.h"
+#include "Keyboard.h"
+#include "Mouse.h"
+#include "GamePad.h"

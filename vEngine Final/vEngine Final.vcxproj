@@ -171,13 +171,19 @@
     <ClInclude Include="Engine.h" />
     <ClInclude Include="EngineClock.h" />
     <ClInclude Include="EngineComponent.h" />
+    <ClInclude Include="EngineEnums.h" />
     <ClInclude Include="EngineException.h" />
     <ClInclude Include="EngineRTTI.h" />
     <ClInclude Include="EngineServiceContainer.h" />
+    <ClInclude Include="EngineStructs.h" />
     <ClInclude Include="EngineTime.h" />
     <ClInclude Include="EngineUtility.h" />
     <ClInclude Include="FramesPerSecond.h" />
+    <ClInclude Include="GamePad.h" />
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="Mouse.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StringEncryptionRC4.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
@@ -190,12 +196,16 @@
     <ClCompile Include="EngineTime.cpp" />
     <ClCompile Include="EngineUtility.cpp" />
     <ClCompile Include="FramesPerSecond.cpp" />
+    <ClCompile Include="GamePad.cpp" />
+    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="Mouse.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="StringEncryptionRC4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

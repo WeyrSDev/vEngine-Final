@@ -31,14 +31,20 @@
     <Filter Include="Source Files\SupportComponents">
       <UniqueIdentifier>{13cdd577-c2c5-4469-8a8c-c36fd3071fa5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{dfac4c7f-6f81-4e06-b882-a5094f631eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{c4f32f72-c784-450d-93ee-97083a74791e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{77a12085-5a3b-455c-ad63-77c413ee0de0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helpers">
+      <UniqueIdentifier>{a2e2fb80-4e8e-4681-959c-225d7fab315a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="DrawableComponent.h">
       <Filter>Header Files\Components</Filter>
     </ClInclude>
@@ -69,11 +75,32 @@
     <ClInclude Include="FramesPerSecond.h">
       <Filter>Header Files\SupportComponents</Filter>
     </ClInclude>
+    <ClInclude Include="StringEncryptionRC4.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineEnums.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineStructs.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files\SupportComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files\SupportComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePad.h">
+      <Filter>Header Files\SupportComponents</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Engine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -99,6 +126,21 @@
       <Filter>Source Files\Core</Filter>
     </ClCompile>
     <ClCompile Include="FramesPerSecond.cpp">
+      <Filter>Source Files\SupportComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="StringEncryptionRC4.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files\SupportComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\SupportComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePad.cpp">
       <Filter>Source Files\SupportComponents</Filter>
     </ClCompile>
   </ItemGroup>
