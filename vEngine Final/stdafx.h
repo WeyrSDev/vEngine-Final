@@ -65,3 +65,6 @@
 #include "Keyboard.h"
 #include "Mouse.h"
 #include "GamePad.h"
+#include "ColorHelper.h"
+#include "MatrixHelper.h"
+#include "VectorHelper.h"
