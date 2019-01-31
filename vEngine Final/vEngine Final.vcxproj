@@ -167,6 +167,7 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="ColorHelper.h" />
     <ClInclude Include="DrawableComponent.h" />
     <ClInclude Include="Engine.h" />
@@ -179,9 +180,12 @@
     <ClInclude Include="EngineStructs.h" />
     <ClInclude Include="EngineTime.h" />
     <ClInclude Include="EngineUtility.h" />
+    <ClInclude Include="FirstPersonCamera.h" />
     <ClInclude Include="FramesPerSecond.h" />
     <ClInclude Include="GamePad.h" />
+    <ClInclude Include="Grid.h" />
     <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="MathHelper.h" />
     <ClInclude Include="MatrixHelper.h" />
     <ClInclude Include="Mouse.h" />
     <ClInclude Include="stdafx.h" />
@@ -190,6 +194,7 @@
     <ClInclude Include="VectorHelper.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="ColorHelper.cpp" />
     <ClCompile Include="DrawableComponent.cpp" />
     <ClCompile Include="Engine.cpp" />
@@ -199,8 +204,10 @@
     <ClCompile Include="EngineServiceContainer.cpp" />
     <ClCompile Include="EngineTime.cpp" />
     <ClCompile Include="EngineUtility.cpp" />
+    <ClCompile Include="FirstPersonCamera.cpp" />
     <ClCompile Include="FramesPerSecond.cpp" />
     <ClCompile Include="GamePad.cpp" />
+    <ClCompile Include="Grid.cpp" />
     <ClCompile Include="Keyboard.cpp" />
     <ClCompile Include="MatrixHelper.cpp" />
     <ClCompile Include="Mouse.cpp" />
@@ -225,6 +232,8 @@
     <Import Project="..\packages\Assimp.redist.3.0.0\build\native\Assimp.redist.targets" Condition="Exists('..\packages\Assimp.redist.3.0.0\build\native\Assimp.redist.targets')" />
     <Import Project="..\packages\Assimp.3.0.0\build\native\Assimp.targets" Condition="Exists('..\packages\Assimp.3.0.0\build\native\Assimp.targets')" />
     <Import Project="..\packages\Assimp.symbols.3.0.0\build\native\Assimp.symbols.targets" Condition="Exists('..\packages\Assimp.symbols.3.0.0\build\native\Assimp.symbols.targets')" />
+    <Import Project="..\packages\zlib_native.redist.1.2.11\build\native\zlib_native.redist.targets" Condition="Exists('..\packages\zlib_native.redist.1.2.11\build\native\zlib_native.redist.targets')" />
+    <Import Project="..\packages\zlib_native.1.2.11\build\native\zlib_native.targets" Condition="Exists('..\packages\zlib_native.1.2.11\build\native\zlib_native.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
@@ -237,5 +246,7 @@
     <Error Condition="!Exists('..\packages\Assimp.redist.3.0.0\build\native\Assimp.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Assimp.redist.3.0.0\build\native\Assimp.redist.targets'))" />
     <Error Condition="!Exists('..\packages\Assimp.3.0.0\build\native\Assimp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Assimp.3.0.0\build\native\Assimp.targets'))" />
     <Error Condition="!Exists('..\packages\Assimp.symbols.3.0.0\build\native\Assimp.symbols.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Assimp.symbols.3.0.0\build\native\Assimp.symbols.targets'))" />
+    <Error Condition="!Exists('..\packages\zlib_native.redist.1.2.11\build\native\zlib_native.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\zlib_native.redist.1.2.11\build\native\zlib_native.redist.targets'))" />
+    <Error Condition="!Exists('..\packages\zlib_native.1.2.11\build\native\zlib_native.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\zlib_native.1.2.11\build\native\zlib_native.targets'))" />
   </Target>
 </Project>

@@ -19,17 +19,11 @@
     <Filter Include="Source Files\Core">
       <UniqueIdentifier>{04159603-dd14-4ae3-b8e1-d875a1504628}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\SupportComponents">
-      <UniqueIdentifier>{96f04141-81fe-4c41-9741-79bc195a917a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Components">
       <UniqueIdentifier>{f86a480e-33a7-4815-b872-e80e69bf9bcb}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Components">
       <UniqueIdentifier>{aedb0eab-706c-43df-9adf-242f12662184}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\SupportComponents">
-      <UniqueIdentifier>{13cdd577-c2c5-4469-8a8c-c36fd3071fa5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Misc">
       <UniqueIdentifier>{dfac4c7f-6f81-4e06-b882-a5094f631eac}</UniqueIdentifier>
@@ -72,9 +66,6 @@
     <ClInclude Include="Engine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FramesPerSecond.h">
-      <Filter>Header Files\SupportComponents</Filter>
-    </ClInclude>
     <ClInclude Include="StringEncryptionRC4.h">
       <Filter>Header Files\Misc</Filter>
     </ClInclude>
@@ -90,15 +81,6 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files\Misc</Filter>
     </ClInclude>
-    <ClInclude Include="Keyboard.h">
-      <Filter>Header Files\SupportComponents</Filter>
-    </ClInclude>
-    <ClInclude Include="Mouse.h">
-      <Filter>Header Files\SupportComponents</Filter>
-    </ClInclude>
-    <ClInclude Include="GamePad.h">
-      <Filter>Header Files\SupportComponents</Filter>
-    </ClInclude>
     <ClInclude Include="ColorHelper.h">
       <Filter>Header Files\Helpers</Filter>
     </ClInclude>
@@ -107,6 +89,30 @@
     </ClInclude>
     <ClInclude Include="VectorHelper.h">
       <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="FramesPerSecond.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePad.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstPersonCamera.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Header Files\Components</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -134,23 +140,11 @@
     <ClCompile Include="EngineUtility.cpp">
       <Filter>Source Files\Core</Filter>
     </ClCompile>
-    <ClCompile Include="FramesPerSecond.cpp">
-      <Filter>Source Files\SupportComponents</Filter>
-    </ClCompile>
     <ClCompile Include="StringEncryptionRC4.cpp">
       <Filter>Source Files\Misc</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files\Misc</Filter>
-    </ClCompile>
-    <ClCompile Include="Keyboard.cpp">
-      <Filter>Source Files\SupportComponents</Filter>
-    </ClCompile>
-    <ClCompile Include="Mouse.cpp">
-      <Filter>Source Files\SupportComponents</Filter>
-    </ClCompile>
-    <ClCompile Include="GamePad.cpp">
-      <Filter>Source Files\SupportComponents</Filter>
     </ClCompile>
     <ClCompile Include="ColorHelper.cpp">
       <Filter>Source Files\Helpers</Filter>
@@ -160,6 +154,27 @@
     </ClCompile>
     <ClCompile Include="VectorHelper.cpp">
       <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="FramesPerSecond.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePad.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstPersonCamera.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Source Files\Components</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

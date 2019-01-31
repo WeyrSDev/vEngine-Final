@@ -68,3 +68,7 @@
 #include "ColorHelper.h"
 #include "MatrixHelper.h"
 #include "VectorHelper.h"
+#include "MathHelper.h"
+#include "Camera.h"
+#include "FirstPersonCamera.h"
+#include "Grid.h"
