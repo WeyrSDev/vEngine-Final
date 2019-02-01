@@ -114,6 +114,9 @@
     <ClInclude Include="Grid.h">
       <Filter>Header Files\Components</Filter>
     </ClInclude>
+    <ClInclude Include="RenderStateHelper.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Engine.cpp">
@@ -175,6 +178,9 @@
     </ClCompile>
     <ClCompile Include="Grid.cpp">
       <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStateHelper.cpp">
+      <Filter>Source Files\Helpers</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
