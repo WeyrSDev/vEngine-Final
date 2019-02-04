@@ -5,21 +5,14 @@ namespace vEngine {
 	const float Camera::DefaultFieldOfView = XM_PIDIV4;
 	const float Camera::DefaultNearPlaneDistance = 0.01f;
 	const float Camera::DefaultFarPlaneDistance = 1000.0f;
-	Camera::Camera(Engine& engine) :
-		EngineComponent(engine), m_FieldOfView(DefaultFieldOfView), m_AspectRatio(engine.AspectRatio()), m_NearPlaneDistance(DefaultNearPlaneDistance),
-		m_FarPlaneDistance(DefaultFarPlaneDistance), m_Position(), m_Direction(), m_Up(), m_Right(), m_ViewMatrix(), m_ProjectionMatrix()
-	{
 
+	Camera::Camera(Engine& engine, float nearPlaneDistance, float farPlaneDistance) :
+		EngineComponent(engine),
+		m_NearPlaneDistance(nearPlaneDistance), m_FarPlaneDistance(farPlaneDistance)
+	{
 	}
 
-	Camera::Camera(Engine& engine, float fieldOfView, float aspectRatio, float nearPlaneDistance, float farPlaneDistance) :
-		EngineComponent(engine), m_FieldOfView(fieldOfView), m_AspectRatio(aspectRatio), m_NearPlaneDistance(nearPlaneDistance), 
-		m_FarPlaneDistance(farPlaneDistance), m_Position(), m_Direction(), m_Up(), m_Right(), m_ViewMatrix(), m_ProjectionMatrix()
-	{
-	}
-	Camera::~Camera()
-	{
-	}
+
 	const XMFLOAT3& Camera::Position() const
 	{
 		return m_Position;

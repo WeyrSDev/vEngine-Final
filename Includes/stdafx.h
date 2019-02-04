@@ -71,6 +71,7 @@
 #include "MathHelper.h"
 #include "Camera.h"
 #include "FirstPersonCamera.h"
+#include "OrthographicCamera.h"
 #include "Grid.h"
 #include "RenderStateHelper.h"
 #include "EngineStructs.h"

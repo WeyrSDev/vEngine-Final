@@ -188,6 +188,7 @@
     <ClInclude Include="MathHelper.h" />
     <ClInclude Include="MatrixHelper.h" />
     <ClInclude Include="Mouse.h" />
+    <ClInclude Include="OrthographicCamera.h" />
     <ClInclude Include="RenderStateHelper.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="StringEncryptionRC4.h" />
@@ -212,6 +213,7 @@
     <ClCompile Include="Keyboard.cpp" />
     <ClCompile Include="MatrixHelper.cpp" />
     <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="OrthographicCamera.cpp" />
     <ClCompile Include="RenderStateHelper.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

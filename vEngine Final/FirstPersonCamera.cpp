@@ -6,11 +6,7 @@ namespace vEngine {
 	const float FirstPersonCamera::DefaultMovementRate = 10.0f;
 	const float FirstPersonCamera::DefaultMouseSensitivity = 100.0f;
 
-	FirstPersonCamera::FirstPersonCamera(Engine& engine)
-		: Camera(engine), m_Keyboard(nullptr), m_Mouse(nullptr),
-		m_MouseSensitivity(DefaultMouseSensitivity), m_RotationRate(DefaultRotationRate), m_MovementRate(DefaultMovementRate)
-	{
-	}
+
 
 	FirstPersonCamera::FirstPersonCamera(Engine& engine, float fieldOfView, float aspectRatio, float nearPlaneDistance, float farPlaneDistance)
 		: Camera(engine, fieldOfView, aspectRatio, nearPlaneDistance, farPlaneDistance), m_Keyboard(nullptr), m_Mouse(nullptr),

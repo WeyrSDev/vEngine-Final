@@ -6,8 +6,9 @@ namespace vEngine {
 	class FirstPersonCamera : public Camera {
 		RTTI_DECLARATIONS(FirstPersonCamera, Camera)
 	public:
-		FirstPersonCamera(Engine& engine);
+		explicit FirstPersonCamera(Engine& engine);
 		FirstPersonCamera(Engine& engine, float fieldOfView, float aspectRatio, float nearPlaneDistance, float farPlaneDistance);
+		
 		virtual ~FirstPersonCamera();
 		//
 		const Keyboard& GetKeyboard() const;
@@ -30,8 +31,5 @@ namespace vEngine {
 		float m_MovementRate;
 		Keyboard* m_Keyboard;
 		Mouse* m_Mouse;
-	private:
-		FirstPersonCamera(const FirstPersonCamera& rhs);
-		FirstPersonCamera& operator=(const FirstPersonCamera& rhs);
 	};
 }

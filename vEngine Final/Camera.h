@@ -5,9 +5,13 @@ namespace vEngine {
 	class Camera : public EngineComponent {
 		RTTI_DECLARATIONS(Camera, EngineComponent)
 	public:
-		Camera(Engine& engine);
+		explicit Camera(Engine& engine, float nearPlaneDistance = DefaultNearPlaneDistance, float farPlaneDistance = DefaultFarPlaneDistance);
 		Camera(Engine& engine, float fieldOfView, float aspectRatio, float nearPlaneDistance, float farPlaneDistance);
-		virtual ~Camera();
+		Camera(const Camera&) = default;
+		Camera& operator=(const Camera&) = default;
+		Camera(Camera&&) = default;
+		Camera& operator=(Camera&&) = default;
+		virtual ~Camera() = default;
 		//
 		const XMFLOAT3& Position() const;
 		const XMFLOAT3& Direction() const;
@@ -56,8 +60,5 @@ namespace vEngine {
 		//
 		XMFLOAT4X4 m_ViewMatrix;
 		XMFLOAT4X4 m_ProjectionMatrix;
-	private:
-		Camera(const Camera& rhs);
-		Camera& operator=(const Camera& rhs);
 	};
 }
