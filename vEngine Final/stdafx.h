@@ -47,7 +47,7 @@
 #include <GamePad.h>
 
 
-#include "EngineStructs.h"
+
 #include "EngineEnums.h"
 #include "StringEncryptionRC4.h"
 #include "D3DCompiler.h"
@@ -73,3 +73,4 @@
 #include "FirstPersonCamera.h"
 #include "Grid.h"
 #include "RenderStateHelper.h"
+#include "EngineStructs.h"

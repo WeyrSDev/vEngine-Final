@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Library::Game" Collapsed="true">
+    <Position X="2.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>koaIIgBACkIFQ8AOAigBESAFABjnMKABYhCgSAAAgAI=</HashCode>
+      <FileName>Engine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Utility" Collapsed="true">
+    <Position X="65.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGQCAAAAAACIIAkAAAAAAAAQAAAABAAEAAgBAAAAAA=</HashCode>
+      <FileName>Utility.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::MouseHotSpot" Collapsed="true">
+    <Position X="67.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAigAAAAAAAAAQAAAAAAAAAAAAAAAQBAAAAAgAAAAAA=</HashCode>
+      <FileName>MouseHotspotZone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::StringEncryptionRC4" Collapsed="true">
+    <Position X="72.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAgAAAgAAAAAAAAAAAAAAAAggAAAIAEAAAAAEAA=</HashCode>
+      <FileName>StringEncryptionRC4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Bone" Collapsed="true">
+    <Position X="63.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAACBAAAAEQAAAAAAAAAAAAgAAgAAAAAAA=</HashCode>
+      <FileName>Bone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::BoneAnimation" Collapsed="true">
+    <Position X="69.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBAAAAAAEAIAAQAARBAAAAIAAAAACAAAAgEAAAAAA=</HashCode>
+      <FileName>BoneAnimation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::AnimationClip" Collapsed="true">
+    <Position X="65.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQoIAQAAAAACAAAAEABAQAQAAAhIACCACAggAAEASAA=</HashCode>
+      <FileName>AnimationClip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Model" Collapsed="true">
+    <Position X="74.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUASCQAAABAAAAABAEABUEAYQAJCAAAAhAggEAAAAAA=</HashCode>
+      <FileName>Model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::BlendStates" Collapsed="true">
+    <Position X="67.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAACAAAAAAAAAAAgAAAAAgABAAAAA=</HashCode>
+      <FileName>BlendStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Keyframe" Collapsed="true">
+    <Position X="67.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAACAwJAAAQAgAAACAEQAAAgAAAAAQQ=</HashCode>
+      <FileName>Keyframe.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::BoundingSphere" Collapsed="true">
+    <Position X="72.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAAAAAAAAAAAAAAAAAgAAAAAACAAAAAAAAAAIAAA=</HashCode>
+      <FileName>BoundingSphere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::BufferContainer" Collapsed="true">
+    <Position X="74.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAQAAiAAAAAAAAAAAAAAAIAAAAgAABAQEA=</HashCode>
+      <FileName>BufferContainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::GameTime" Collapsed="true">
+    <Position X="65.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBAAAAAAAAAEAAAAAAIAAAACAAAAEAAgAAAAAAAAAA=</HashCode>
+      <FileName>Time.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::GameClock" Collapsed="true">
+    <Position X="72.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAQAAAAABAAgAAAIAAAAIAIUAAAAAAAggICAAAA=</HashCode>
+      <FileName>Clock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::GameComponent" Collapsed="true">
+    <Position X="45.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQACAAFAAAAAYABAAAAAAAAAAAAAAAAAAAgAAAAAIA=</HashCode>
+      <FileName>Component.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::DepthMap" Collapsed="true">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIAAQAAAAAAAEABAAABAAAAAAAgEAAgAAAgAAAAAAA=</HashCode>
+      <FileName>DepthMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Effect" Collapsed="true">
+    <Position X="67.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACACICAAAgEAQgBAAAAACAACAIAAAAAAAQgAAhCgAA=</HashCode>
+      <FileName>Effect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::GameException" Collapsed="true">
+    <Position X="74.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAABAQAAAAAAAAIAAAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::FullScreenRenderTarget" Collapsed="true">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIAAQAAAAAAAAABAAAAAAAAAAAgEIAgAAAgAQQAAAA=</HashCode>
+      <FileName>FullScreenRenderTarget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Keyboard" Collapsed="true">
+    <Position X="36.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAxAAAYIACIAAUACAAAAACQAAAAQAAAAAAAAYAAAAAA=</HashCode>
+      <FileName>Keyboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Frustum" Collapsed="true">
+    <Position X="71" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wCAAAgAAgAAAlAAAAAAUEEDAgAAsAAAACgCAAAAAAAA=</HashCode>
+      <FileName>Frustum.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Factory&lt;T&gt;" Collapsed="true">
+    <Position X="69.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAACAAAAAAAQBBAAAAAAIEEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Mesh" Collapsed="true">
+    <Position X="72.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEgAEEGgIkIAAQADMAQAECADCBAoUQggAABAEBg=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Material" Collapsed="true">
+    <Position X="18.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAACAAAoAAEAQgAAAAAAAAICAEAAAAAAQAgAoAACAA=</HashCode>
+      <FileName>Material.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::ModelMaterial" Collapsed="true">
+    <Position X="65.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAACAIABAAAAAAAQEAAAAAAIAAAggAAAAAQA=</HashCode>
+      <FileName>ModelMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::BoneVertexWeights" Collapsed="true">
+    <Position X="71" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACABAAAAAAAAAAACAEAAAAAAAAA=</HashCode>
+      <FileName>Bone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::SceneNode" Collapsed="true">
+    <Position X="63.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABABAAEAAAAAAAAAEQAQAAAAAAAAIAEggAAQAAAA=</HashCode>
+      <FileName>SceneNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Mouse" Collapsed="true">
+    <Position X="31.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQRAIAAIAAABCUAAwAAgACAAAEAAAAAUEBCAIAAAYAA=</HashCode>
+      <FileName>Mouse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Technique" Collapsed="true">
+    <Position X="74.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgCEAAAAAQAAAIAAAGABQACAAAAAIAAAggCAAAAAA=</HashCode>
+      <FileName>Technique.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Pass" Collapsed="true">
+    <Position X="69.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAABQAAAAJAAAAAgQAAAAAAAIEAAggAAAACAA=</HashCode>
+      <FileName>Pass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::RasterizerStates" Collapsed="true">
+    <Position X="71" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAggAAAAAAAQAAAARAAAAAAAAAAAAAAABgABAAAAA=</HashCode>
+      <FileName>RasterizerStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Ray" Collapsed="true">
+    <Position X="72.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAgACAAQAAAAIAAAgAAAgCAAAAAAgA=</HashCode>
+      <FileName>Ray.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::RenderTarget" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIAAAAAAAAAAAAAIAAAAAgAAAAAEAAAAAAgAAAAAAA=</HashCode>
+      <FileName>RenderTarget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::RTTI" Collapsed="true">
+    <Position X="32.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAABAwAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RTTI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::SamplerStates" Collapsed="true">
+    <Position X="65.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAEAACBAAAAAAAAQAiABAAAAg=</HashCode>
+      <FileName>SamplerStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::ServiceContainer" Collapsed="true">
+    <Position X="67.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAQAAAAAAAAAAAAAAAAAgACAAAEQ=</HashCode>
+      <FileName>ServiceContainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Variable" Collapsed="true">
+    <Position X="67.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAUAAAAAAAAAAACAABQACAEAAAAEAQwgAAAARAA=</HashCode>
+      <FileName>Variable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::AnimationPlayer" Collapsed="true">
+    <Position X="29.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQQAIAYAAAKgIAAIEEACABAhAFCEAEAAKAAgkAwAIAA=</HashCode>
+      <FileName>AnimationPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Camera" Collapsed="true">
+    <Position X="34" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGQCAAAAFACIBQIgQyAAQQAAEKMEAgACAgSgAQgAAwI=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::DrawableGameComponent" Collapsed="true">
+    <Position X="46.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAIAgAAAAACIAAAAAAAAAQIAAAkAAAAAAA=</HashCode>
+      <FileName>DrawableComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Light" Collapsed="true">
+    <Position X="57.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAACAAAAAAAAAAAAAAAAAAAgAgAAAAgA=</HashCode>
+      <FileName>Light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Projector" Collapsed="true">
+    <Position X="61" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EGRAAAAAFACIBQIwQyAAQQAAEKMEAgACAgSgAQgAAwI=</HashCode>
+      <FileName>Projector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::BasicMaterial" Collapsed="true">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>BasicMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::ProxyModel" Collapsed="true">
+    <Position X="40.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAADAAAAwIgACAAQwAACIAFAhEIAiCgACAAAgo=</HashCode>
+      <FileName>ProxyModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::BloomMaterial" Collapsed="true">
+    <Position X="18.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BloomMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::FullScreenQuad" Collapsed="true">
+    <Position X="45.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAACwKAAAAAAgAAAAAABAIMAAIgUCAAAAg=</HashCode>
+      <FileName>FullScreenQuad.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::GaussianBlur" Collapsed="true">
+    <Position X="47.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgAQAACuAABycAIAEAAAAACAAAAABgQAIwIBAIBAA=</HashCode>
+      <FileName>GaussianBlur.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Bloom" Collapsed="true">
+    <Position X="49.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAEIAgCIoAQAyEAABABAAAAABAEACAEQCIwAAALAAA=</HashCode>
+      <FileName>Bloom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::FpsComponent" Collapsed="true">
+    <Position X="52" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAAAAwAAAAAAAAAAAAAAIACAASEgEABggAA=</HashCode>
+      <FileName>FramesPerSecond.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::GaussianBlurMaterial" Collapsed="true">
+    <Position X="20.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GaussianBlurMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Grid" Collapsed="true">
+    <Position X="54.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIgAAgAAAAAAgwIgAQIIAgAAAAAACgAACCggkgAAAwg=</HashCode>
+      <FileName>Grid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::RenderableFrustum" Collapsed="true">
+    <Position X="38.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AExAAAAABAAAAwIgACAAQwAAEIAEQ4AYAyCgEAQAAwo=</HashCode>
+      <FileName>RenderableFrustum.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::SkyboxMaterial" Collapsed="true">
+    <Position X="11.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>SkyboxMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Skybox" Collapsed="true">
+    <Position X="43" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAwIAhAAAAAAACAAAAAEIACAgACAAAIg=</HashCode>
+      <FileName>Skybox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::FirstPersonCamera" Collapsed="true">
+    <Position X="34" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAQACFAACAAABQAAQAEABABQAAIABACAAAAiABAAAAA=</HashCode>
+      <FileName>FirstPersonCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::PointLight" Collapsed="true">
+    <Position X="56.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAABAgAACAQAAAAAAACgAAAAAAAACAAgA=</HashCode>
+      <FileName>PointLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::SpotLight" Collapsed="true">
+    <Position X="56.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JMQAAQAABAAAAAAAACIiIQAAAIAEAAAAAgCAAAAAAAI=</HashCode>
+      <FileName>SpotLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::DirectionalLight" Collapsed="true">
+    <Position X="58.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAABAAAAAAAACAQAQAAAIAEAAAAAgCAAAAAAAI=</HashCode>
+      <FileName>DirectionalLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::ColorHelper" Collapsed="true">
+    <Position X="65.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAfAAAAAAAEAgAAAAAIAAAEBAAAAAAAAAAhQjAAAAA=</HashCode>
+      <FileName>ColorHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::MathHelper" Collapsed="true">
+    <Position X="69.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MathHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::MatrixHelper" Collapsed="true">
+    <Position X="71" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIgACAAAIAAAAQAAAAAAAEIgIIACAAA=</HashCode>
+      <FileName>MatrixHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::RenderStateHelper" Collapsed="true">
+    <Position X="74.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAAAEEAEAEBBAAADAMAACABAQAAAAAAgACBABAA=</HashCode>
+      <FileName>RenderStateHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Vector2Helper" Collapsed="true">
+    <Position X="69.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAQAAAAAAAAAgAAAAAIA=</HashCode>
+      <FileName>VectorHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Vector3Helper" Collapsed="true">
+    <Position X="71" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAKAAAAAAAAEAAAAAAgAAQAAAAAACACgAAAAAII=</HashCode>
+      <FileName>VectorHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::Vector4Helper" Collapsed="true">
+    <Position X="72.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAEAAQAAAAAAAAAgAAAAAIA=</HashCode>
+      <FileName>VectorHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::DepthMapMaterial" Collapsed="true">
+    <Position X="13.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>DepthMapMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::DistortionMappingMaterial" Collapsed="true">
+    <Position X="16" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>DistortionMappingMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::PostProcessingMaterial" Collapsed="true">
+    <Position X="19.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>PostProcessingMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::ProjectiveTextureMappingMaterial" Collapsed="true">
+    <Position X="22.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ProjectiveTextureMappingMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::ShadowMappingMaterial" Collapsed="true">
+    <Position X="25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ShadowMappingMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library::SkinnedModelMaterial" Collapsed="true">
+    <Position X="27.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>SkinnedModelMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vEngine::XBoxGamePad" Collapsed="true">
+    <Position X="74.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAJAAIAAABCQAAAAAEACAAAEAAAkQEEACAAQAAAAA=</HashCode>
+      <FileName>GamePad.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirectX::SpriteBatch" Collapsed="true">
+    <Position X="69.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIIAAAAAAACAAgAAAAAAIAAAAAAAEAgEQAAkAAAAAAA=</HashCode>
+      <FileName>C:\Users\PC_User\Source\Repos\vEngine Final\packages\directxtk_desktop_2015.2018.11.20.1\include\SpriteBatch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirectX::SpriteFont" Collapsed="true">
+    <Position X="71" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAICAEABAAEQAAAQAAAAAAAARAAAAAADAgAAAAAAA=</HashCode>
+      <FileName>C:\Users\PC_User\Source\Repos\vEngine Final\packages\directxtk_desktop_2015.2018.11.20.1\include\SpriteFont.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Library::_BloomSettings" Collapsed="true">
+    <Position X="16.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAChAAAAgAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Bloom.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Library::HotSpot" Collapsed="true">
+    <Position X="65.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAABABAAEAAAAAAAEQAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Library::_VertexPosition" Collapsed="true">
+    <Position X="16.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Library::_VertexPositionColor" Collapsed="true">
+    <Position X="12.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAQAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Library::_VertexPositionTexture" Collapsed="true">
+    <Position X="8.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Library::_VertexPositionSize" Collapsed="true">
+    <Position X="4.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAgAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Library::_VertexPositionNormal" Collapsed="true">
+    <Position X="0.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAYAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Library::_VertexPositionTextureNormal" Collapsed="true">
+    <Position X="12.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAICAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Library::VertexPositionTextureNormalTangent" Collapsed="true">
+    <Position X="67.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAgAAAAIAAAAAAIAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Library::_VertexSkinnedPositionTextureNormal" Collapsed="true">
+    <Position X="12.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAhAAAAIAAAAAAIABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="Library::byte" Collapsed="true">
+    <Position X="65.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Library::BloomSettings" Collapsed="true">
+    <Position X="16.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloom.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vEngine::Flags" Collapsed="true">
+    <Position X="8.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vEngine::MouseButtons" Collapsed="true">
+    <Position X="4.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vEngine::PadButtons" Collapsed="true">
+    <Position X="67.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vEngine::TextureType" Collapsed="true">
+    <Position X="0.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vEngine::FrustumPlane" Collapsed="true">
+    <Position X="8.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vEngine::DistortionTechnique" Collapsed="true">
+    <Position X="4.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vEngine::BloomDrawMode" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Library::VertexPosition" Collapsed="true">
+    <Position X="16.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structs.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Library::VertexPositionColor" Collapsed="true">
+    <Position X="12.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structs.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Library::VertexPositionTexture" Collapsed="true">
+    <Position X="8.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structs.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Library::VertexPositionSize" Collapsed="true">
+    <Position X="4.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structs.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Library::VertexPositionNormal" Collapsed="true">
+    <Position X="0.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structs.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Library::VertexPositionTextureNormal" Collapsed="true">
+    <Position X="12.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structs.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Library::VertexSkinnedPositionTextureNormal" Collapsed="true">
+    <Position X="12.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structs.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="Library::FrustumPlane" Collapsed="true">
+    <Position X="69.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAADAAAAAQ=</HashCode>
+      <FileName>Frustum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Library::MouseButtons" Collapsed="true">
+    <Position X="71" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAgACEAAAAAAAA=</HashCode>
+      <FileName>Mouse.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Library::BloomDrawMode" Collapsed="true">
+    <Position X="67.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAgAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Bloom.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Library::TextureType" Collapsed="true">
+    <Position X="72.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACACBAIIAAQAAAAAIAAEABAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>ModelMaterial.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="vEngine::_Flags" Collapsed="true">
+    <Position X="8.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAFAAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="vEngine::_MouseButtons" Collapsed="true">
+    <Position X="4.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAgACEAAAAAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="vEngine::_PadButtons" Collapsed="true">
+    <Position X="65.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ESAAAAAgACAQAAAIAAAAAAAAAAAAAAAAAAAAKQEIYAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="vEngine::_TextureType" Collapsed="true">
+    <Position X="0.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACACBAIIAAQAAAAAIAAEABAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="vEngine::_FrustumPlane" Collapsed="true">
+    <Position X="8.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAADAAAAAQ=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="vEngine::_DistortionTechnique" Collapsed="true">
+    <Position X="4.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="vEngine::_BloomDrawMode" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAgAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
