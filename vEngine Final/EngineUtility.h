@@ -66,3 +66,4 @@ namespace vEngine {
 
 using namespace DirectX;
 using namespace DirectX::PackedVector;
+using namespace Assimp;
