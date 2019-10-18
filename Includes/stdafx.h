@@ -45,6 +45,8 @@
 #include <DirectXMath.h>
 #include <DirectXPackedVector.h>
 #include <GamePad.h>
+#include <assimp/Importer.hpp>
+
 
 
 
